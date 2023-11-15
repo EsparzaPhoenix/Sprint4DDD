@@ -23,9 +23,12 @@ public class ClienteService {
         this.veiculoDao = new VeiculoDao(conn);
     }
 
-    //Métodos relacionados a Clientes
+    public ClienteService() {
+	}
+    
+    //Métodos relacionados a Clientes  
 
-    public List<Cliente> listarClientes() throws SQLException {
+	public List<Cliente> listarClientes() throws SQLException {
         return clienteDao.listarClientes();
     }
 

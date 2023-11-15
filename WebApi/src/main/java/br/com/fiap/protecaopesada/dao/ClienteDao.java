@@ -19,7 +19,10 @@ public class ClienteDao {
         this.conn = conn;
     }
 
-    public List<Cliente> listarClientes() throws SQLException {
+    public ClienteDao() {
+	}
+
+	public List<Cliente> listarClientes() throws SQLException {
         PreparedStatement stm = conn.prepareStatement("SELECT * FROM tabela_clientes");
         ResultSet result = stm.executeQuery();
         List<Cliente> lista = new ArrayList<>();

@@ -4,7 +4,7 @@
           xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee 
           https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" 
           version="6.0">
-  <display-name>WebApi</display-name>
+  <display-name>JavaSprint4</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.jsp</welcome-file>
@@ -18,7 +18,7 @@
     <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
     <init-param>
       <param-name>jersey.config.server.provider.packages</param-name>
-      <param-value>br.com.fiap.resource</param-value>
+      <param-value>br.com.fiap.sprint4.resource</param-value>
     </init-param>
     <init-param>
       <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
